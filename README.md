@@ -26,9 +26,3 @@ Languages   Python · Bash · C
 OS          Arch Linux + Hyprland · Wayland
 Tools       Git · Obsidian · Proxmox · Docker * Kubernetes
 ```
-
----
-
-## Links
-
-[h45sh.com](http://h45sh.com) · [x.com/_h45sh](https://x.com/_h45sh) · [linkedin.com/in/h45sh](https://linkedin.com/in/h45sh)
