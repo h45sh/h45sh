@@ -8,8 +8,6 @@ I work at the intersection of software, systems, and security. My process is dir
 
 **[CyGuide](https://github.com/h45sh/cyguide)** — Terminal User Interface platform for cybersecurity education and tool chaining. Built on a Smart Adapter / Stupid Framework model with a stateful entity graph (SQLite), 15-schema finding vocabulary, and a plugin system that lets you add tools like nmap, gobuster, and whois without touching core. Python · Textual · SQLite
 
-**[web-scanner](https://github.com/h45sh/web-scanner)** — Automated web security scanner with vulnerability assessment, security header analysis, information disclosure detection, and HTML report generation. Python
-
 ---
 
 ## Focus Areas
