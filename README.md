@@ -1,21 +1,23 @@
 # Harshwardhan Patil
 
-I work at the intersection of software, systems, and security. My process is direct: build tools, break things deliberately, understand why they break — from the kernel up. Currently building [CyGuide](https://github.com/h45sh/cyguide), an open-source TUI platform for cybersecurity tool orchestration. Long-term, I'm interested in how software interacts with physical systems — which is driving me toward embedded domains alongside CS.
+I work at the intersection of software, systems, and security. My process is direct: build tools, break things deliberately, understand why they break — from the kernel up. Long-term, I'm interested in how software interacts with physical systems — which is driving me toward embedded domains alongside CS.
 
 ---
 
-## Active Work
+## Featured Projects & Active Work
 
-**[CyGuide](https://github.com/h45sh/cyguide)** — Terminal User Interface platform for cybersecurity education and tool chaining. Built on a Smart Adapter / Stupid Framework model with a stateful entity graph (SQLite), 15-schema finding vocabulary, and a plugin system that lets you add tools like nmap, gobuster, and whois without touching core. Python · Textual · SQLite
+- **[Commit Guard](https://github.com/h45sh/commit-guard)** — Uncompromising pre-commit auditor and change review skill for AI agents and developers. Enforces architectural integrity, security hygiene (OWASP / NIST SP 800-175B), and eliminates dead/bloat code before it enters git history. `Python` · `Agent Skills` · `Git Hooks`
+- **[CyGuide](https://github.com/h45sh/cyguide)** — Terminal User Interface (TUI) platform for cybersecurity education and tool chaining. Built on a Smart Adapter / Stateful entity graph (SQLite), 15-schema finding vocabulary, and a modular plugin system. `Python` · `Textual` · `SQLite`
+- **[webstat](https://github.com/h45sh/webstat)** — Fast website status checker, recovery watcher, and desktop reminder with native Omarchy shell bar widget & notification integration. `Python` · `Typer` · `Rich` · `QML`
 
 ---
 
 ## Focus Areas
 
 - **Software & Systems** — Linux internals, tooling architecture, low-level debugging, Arch + Hyprland
-- **Cybersecurity** — network reconnaissance, TUI tooling, security automation
-- **Mathematics & Algorithms** — It is the foundation I work on and improve continuously.
-- **Deep Learning** — exploring these massive functions and the emergence of "intelligence" from patterns in data.
+- **Cybersecurity & Guardrails** — Pre-commit security auditing, network reconnaissance, TUI tooling, agent skills
+- **Mathematics & Algorithms** — Core foundation and continuous optimization
+- **Deep Learning** — Exploring neural foundations, autograd engines, and agentic workflows
 
 ---
 
@@ -24,5 +26,5 @@ I work at the intersection of software, systems, and security. My process is dir
 ```
 Languages   Python · Bash · C
 OS          Arch Linux + Hyprland · Wayland
-Tools       Git · Obsidian · Proxmox · Docker * Kubernetes
+Tools       Git · Obsidian · Proxmox · Docker · Kubernetes
 ```
