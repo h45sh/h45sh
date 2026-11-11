@@ -1,71 +1,48 @@
 # Harshwardhan P.
 
-software engineering · systems · security · devsecops
+Software Engineering &middot; Systems &middot; Security &middot; DevSecOps
 
-I work at the intersection of software, systems, and security. My process is direct: understand by building, validate by breaking, and anchor every concept to working code with production engineering rigor.
-
----
-
-## 🛠️ Active Engineering Tracks
-
-```
-Track 1: Async Storage & Data Architecture   ➜   Track 2: CI/CD, DevSecOps & Packaging   ➜   Track 3: System Design & Resilience
- (aiosqlite, Pydantic v2, Schema Indexing)         (GitHub Actions, CodeQL, Docker, pip-audit)        (httpx, Rate-Limiting, Backoff)
-```
-
-- **Track 1: Async Storage & Data Architecture (`aiosqlite`, `pydantic v2`, SQLite)**: Non-blocking database concurrency, normalized schemas, deterministic SHA-256 identity key hashing, and sub-millisecond graph query indexing.
-- **Track 2: CI/CD, DevSecOps & Packaging (`GitHub Actions`, `CodeQL`, `Docker`)**: Automated multi-runner CI/CD, semantic SAST security scanning with CodeQL, automated supply-chain CVE auditing via `pip-audit`, and unprivileged multi-stage containers.
-- **Track 3: System Design & Network Resilience (`httpx`, `asyncio`, REST)**: Resilient network integrations, client-side connection pooling, exponential backoff with jitter, structured logging, and graceful degradation.
+I build systems from first principles. My process is direct: understand by building, validate by breaking, and anchor every concept to working code with production engineering rigor.
 
 ---
 
-## 🚀 Featured Projects & Active Work
+### Active Engineering Tracks
 
-- **[CyGuide](https://github.com/h45sh/cyguide)** — Stateful terminal workstation for cybersecurity education and offensive tool orchestration. Built on a Smart Adapter / Stateful entity graph pattern (SQLite with deterministic SHA-256 PIKs), context-aware variable injection (`$TARGET`, `$PORT`), and offline-first AI tutoring.  
-  `Python 3.11+` · `Textual TUI` · `aiosqlite` · `Pydantic v2` · `Docker`
-
-- **[Commit Guard](https://github.com/h45sh/commit-guard)** — Uncompromising pre-commit auditor and change review skill for AI agents and engineering teams. Enforces architectural integrity, security hygiene (OWASP / NIST SP 800-175B), and eliminates dead/bloat code before it enters git history.  
-  `Python` · `Agent Skills` · `Git Hooks` · `Static Analysis`
-
-- **[Webstat](https://github.com/h45sh/webstat)** — Fast website status checker, recovery watcher, and desktop reminder for Linux and Omarchy. Features background watchlist daemons, kernel `inotify` QML desktop integration, and auto-browser launch on service recovery.  
-  `Python 3.10+` · `Typer` · `HTTPX` · `Rich` · `QML`
-
-- **[h45sh.com](https://h45sh.com)** ([Source](https://github.com/h45sh/h45sh-website)) — Personal engineering platform built with Django. Features dual-tab engineering deep dives, single-pass Markdown AST pre-rendering with cached Table of Contents, and an autonomous 4-layer Gatekeeper anti-spam engine.  
-  `Django` · `Python 3.11+` · `Tailwind CSS` · `nh3 (Rust)` · `Resend`
+| Track | Focus & Technologies | Key Primitives |
+| :--- | :--- | :--- |
+| **Track 1: Async Storage & Data Architecture** | `aiosqlite` &middot; `pydantic v2` &middot; SQLite | Non-blocking database concurrency, normalized schemas, deterministic SHA-256 identity key hashing, and sub-millisecond graph query indexing. |
+| **Track 2: CI/CD, DevSecOps & Packaging** | `GitHub Actions` &middot; `CodeQL` &middot; `Docker` | Multi-runner CI/CD pipelines, semantic CodeQL SAST scanning, automated supply-chain CVE auditing (`pip-audit`), and unprivileged container builds. |
+| **Track 3: System Design & Network Resilience** | `httpx` &middot; `asyncio` &middot; REST | Resilient network integrations, client-side connection pooling, exponential backoff with jitter, structured logging, and graceful degradation. |
 
 ---
 
-## ⚡ Stack & Toolkit
+### Featured Work
 
-```
-Languages              Python 3.11+ · SQL · Bash · C · Modern C++
-Operating Environment Arch Linux (Omarchy) · Hyprland · POSIX · Linux Tracing Tools
-Persistence & Data     SQLite 3 · aiosqlite · Pydantic v2 · Schema Normalization & Indexing
-DevSecOps & CI/CD      GitHub Actions · CodeQL SAST · Docker · pip-audit · uv · Ruff
-Networking & Security  httpx · nmap · gobuster · nikto · subfinder · whois · Wireshark
-Knowledge & Synthesis  Obsidian · Data Structures & Algorithms · First-Principles ADRs
-```
+- **[CyGuide](https://github.com/h45sh/cyguide)** &mdash; Stateful terminal workstation for cybersecurity education and offensive tool orchestration. Built on a Smart Adapter / Stateful entity graph pattern (SQLite with deterministic SHA-256 PIKs), context-aware variable injection (`$TARGET`, `$PORT`), and offline-first AI tutoring.  
+  `Python 3.11+` &middot; `Textual TUI` &middot; `aiosqlite` &middot; `Pydantic v2` &middot; `Docker`
 
-> *Tools are instruments, not identities. The stack is chosen to match the physical and architectural constraints of the problem, never the reverse.*
+- **[Commit Guard](https://github.com/h45sh/commit-guard)** &mdash; Pre-commit auditor and change review skill for AI agents and engineering teams. Enforces architectural integrity, cryptographic security hygiene (OWASP / NIST SP 800-175B), and eliminates dead or diagnostic code before it enters git history.  
+  `Python` &middot; `Agent Skills` &middot; `Git Hooks` &middot; `Static Analysis`
 
----
+- **[Webstat](https://github.com/h45sh/webstat)** &mdash; Fast website status checker, recovery watcher, and desktop reminder for Linux and Omarchy. Features background watchlist daemons, kernel `inotify` desktop shell integration, and automatic browser dispatch on service recovery.  
+  `Python 3.10+` &middot; `Typer` &middot; `HTTPX` &middot; `Rich` &middot; `QML`
 
-## 🧠 Operating Principles
-
-1. **Understand by Building, Validate by Breaking**: Theoretical models define structure; empirical testing and intentional boundary stress verify reality.
-2. **First Principles Before Abstraction**: Do not depend on high-level wrappers until the underlying protocol, memory model, or algorithmic cost is understood.
-3. **Curriculum Mapped to Code (70 / 30 Rule)**: Active codebase requirements dictate reading. Theory connects and sticks when read just-in-time to solve a concrete challenge in a real system.
-4. **Writing as Externalized Compilation**: Technical documentation is a verification tool that surfaces unstated assumptions and interface contract ambiguities.
+- **[h45sh.com](https://h45sh.com)** ([Source](https://github.com/h45sh/h45sh-website)) &mdash; Personal engineering platform built with Django. Features dual-tab engineering deep dives, single-pass Markdown AST pre-rendering with cached Table of Contents, and an autonomous 4-layer Gatekeeper anti-spam engine.  
+  `Django` &middot; `Python 3.11+` &middot; `Tailwind CSS` &middot; `nh3 (Rust)` &middot; `Resend`
 
 ---
 
-## 🎓 Academic Foundation
+### Stack & Toolkit
 
-- **B.Sc. (Honors) in Computer Science** — BITS Pilani (2023–2027)
-- **B.S. in Aeronautics & Space Technology** — IIT Madras (Foundation Level)
+| Category | Tools & Substrates |
+| :--- | :--- |
+| **Languages** | Python 3.11+ &middot; SQL &middot; Bash &middot; C &middot; Modern C++ |
+| **Operating Environment** | Arch Linux (Omarchy) &middot; Hyprland &middot; POSIX &middot; Linux Tracing Tools |
+| **Persistence & Protocols** | SQLite 3 &middot; aiosqlite &middot; Pydantic v2 &middot; TCP/IP &middot; Unix Domain Sockets &middot; Inotify |
+| **DevSecOps & CI/CD** | GitHub Actions &middot; CodeQL SAST &middot; Docker &middot; pip-audit &middot; uv &middot; Ruff |
+| **Networking & Security** | httpx &middot; nmap &middot; gobuster &middot; nikto &middot; subfinder &middot; whois &middot; Wireshark |
+| **Synthesis & Practice** | Obsidian &middot; Data Structures & Algorithms &middot; Architectural ADRs |
 
 ---
 
-> *Understand the substrate. Break things deliberately. Index the graph. Engineer what comes next.*
->
-> Nashik, India · [h45sh.com](https://h45sh.com)
+*Understand the substrate. Break things deliberately. Index the graph. Engineer what comes next.*
