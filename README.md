@@ -27,7 +27,7 @@ I build systems from first principles. My process is direct: understand by build
 - **[Webstat](https://github.com/h45sh/webstat)** &mdash; Fast website status checker, recovery watcher, and desktop reminder for Linux and Omarchy. Features background watchlist daemons, kernel `inotify` desktop shell integration, and automatic browser dispatch on service recovery.  
   `Python 3.10+` &middot; `Typer` &middot; `HTTPX` &middot; `Rich` &middot; `QML`
 
-- **[h45sh.com](https://h45sh.com)** ([Source](https://github.com/h45sh/h45sh-website)) &mdash; Personal engineering platform built with Django. Features dual-tab engineering deep dives, single-pass Markdown AST pre-rendering with cached Table of Contents, and an autonomous 4-layer Gatekeeper anti-spam engine.  
+- **[h45sh.com](https://h45sh.com)** &mdash; Personal engineering platform built with Django. Features dual-tab engineering deep dives, single-pass Markdown AST pre-rendering with cached Table of Contents, and an autonomous 4-layer Gatekeeper anti-spam engine.  
   `Django` &middot; `Python 3.11+` &middot; `Tailwind CSS` &middot; `nh3 (Rust)` &middot; `Resend`
 
 ---
