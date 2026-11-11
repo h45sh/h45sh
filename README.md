@@ -36,7 +36,7 @@ I build systems from first principles. My process is direct: understand by build
 
 | Category | Tools & Substrates |
 | :--- | :--- |
-| **Languages** | Python 3.11+ &middot; SQL &middot; Bash &middot; C &middot; Modern C++ |
+| **Languages** | Python 3.11+ &middot; SQL &middot; Bash &middot; C |
 | **Operating Environment** | Arch Linux (Omarchy) &middot; Hyprland &middot; POSIX &middot; Linux Tracing Tools |
 | **Persistence & Protocols** | SQLite 3 &middot; aiosqlite &middot; Pydantic v2 &middot; TCP/IP &middot; Unix Domain Sockets &middot; Inotify |
 | **DevSecOps & CI/CD** | GitHub Actions &middot; CodeQL SAST &middot; Docker &middot; pip-audit &middot; uv &middot; Ruff |
