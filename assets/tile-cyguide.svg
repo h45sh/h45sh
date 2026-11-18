@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="240" viewBox="0 0 436 240" role="img">
+  <defs>
+    <linearGradient id="cyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0b1329"/>
+    </linearGradient>
+    <linearGradient id="tuiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "Liberation Mono", Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="436" height="240" fill="url(#cyGrad)" rx="8" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Header strip -->
+  <rect x="0" y="0" width="436" height="30" fill="#070f1e" rx="8"/>
+  <line x1="0" y1="30" x2="436" y2="30" stroke="#1e293b" stroke-width="1"/>
+
+  <text x="14" y="19" class="mono" font-size="10.5" font-weight="700" fill="#00f2fe">01 / CYGUIDE</text>
+  <text x="422" y="19" class="mono" font-size="9.5" fill="#64748b" text-anchor="end">BENCHMARK: Sub-ms Render Loops</text>
+
+  <!-- Interactive Terminal Simulation Window -->
+  <g transform="translate(14, 42)">
+    <rect width="408" height="118" fill="#030712" rx="5" stroke="#334155" stroke-width="0.8"/>
+    
+    <!-- Window controls -->
+    <circle cx="12" cy="12" r="3.5" fill="#ef4444"/>
+    <circle cx="23" cy="12" r="3.5" fill="#f59e0b"/>
+    <circle cx="34" cy="12" r="3.5" fill="#10b981"/>
+    <text x="50" y="15" class="mono" font-size="8.5" fill="#475569">cyguide-tui --render-loop=virtualized</text>
+
+    <!-- Terminal Content Stream -->
+    <text x="12" y="36" class="mono" font-size="9" fill="#10b981">❯ target.bind($TARGET="10.0.0.1", $PORT=443)</text>
+    <text x="12" y="52" class="mono" font-size="9" fill="#38bdf8">▶ SmartAdapter::dispatch(nmap, rustscan, ffuf) [async]</text>
+    <text x="12" y="68" class="mono" font-size="9" fill="#94a3b8">✔ Normalized into entity graph (SHA-256 PIK: e3b0c442...)</text>
+    <text x="12" y="84" class="mono" font-size="9" fill="#e2e8f0">⚡ Sub-ms render loop: 10,240 lines/sec stream [0-drop, 60fps]</text>
+    
+    <!-- AI Tutor Notification Pill inside TUI -->
+    <rect x="12" y="93" width="384" height="18" fill="#0f172a" rx="3" stroke="#0284c7" stroke-width="0.6"/>
+    <text x="20" y="105" class="mono" font-size="8" fill="#38bdf8" font-weight="600">● OFFLINE-FIRST AI TUTOR:</text>
+    <text x="145" y="105" class="mono" font-size="8" fill="#94a3b8">Context injected across active pipeline</text>
+  </g>
+
+  <!-- Card Title & Description -->
+  <text x="14" y="180" class="mono" font-size="13" font-weight="700" fill="#f8fafc">
+    High-Performance Terminal Workstation
+  </text>
+  <text x="14" y="196" class="mono" font-size="9.5" fill="#94a3b8">
+    Sub-ms reactive Textual TUI with deterministic entity graph persistence.
+  </text>
+
+  <!-- Technology Badges -->
+  <g transform="translate(14, 210)">
+    <rect x="0" y="0" width="76" height="18" fill="#0f172a" rx="3" stroke="#334155" stroke-width="0.7"/>
+    <text x="38" y="12" class="mono" font-size="8" fill="#38bdf8" text-anchor="middle">Textual TUI</text>
+
+    <rect x="82" y="0" width="60" height="18" fill="#0f172a" rx="3" stroke="#334155" stroke-width="0.7"/>
+    <text x="112" y="12" class="mono" font-size="8" fill="#38bdf8" text-anchor="middle">aiosqlite</text>
+
+    <rect x="148" y="0" width="70" height="18" fill="#0f172a" rx="3" stroke="#334155" stroke-width="0.7"/>
+    <text x="183" y="12" class="mono" font-size="8" fill="#38bdf8" text-anchor="middle">SHA-256 PIKs</text>
+
+    <rect x="224" y="0" width="56" height="18" fill="#0f172a" rx="3" stroke="#334155" stroke-width="0.7"/>
+    <text x="252" y="12" class="mono" font-size="8" fill="#38bdf8" text-anchor="middle">asyncio</text>
+
+    <text x="408" y="13" class="mono" font-size="9.5" font-weight="700" fill="#00f2fe" text-anchor="end">VIEW ↗</text>
+  </g>
+</svg>

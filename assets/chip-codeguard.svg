@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="34" viewBox="0 0 170 34" role="img">
+  <rect width="170" height="34" rx="17" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
+  <circle cx="16" cy="17" r="4" fill="#f59e0b"/>
+  <text x="26" y="21" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#f8fafc">Code Guard ↗</text>
+</svg>

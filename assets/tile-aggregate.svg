@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="240" viewBox="0 0 436 240" role="img">
+  <defs>
+    <linearGradient id="agGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0c181f"/>
+    </linearGradient>
+    <linearGradient id="greenPulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "Liberation Mono", Menlo, Consolas, monospace; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="436" height="240" fill="url(#agGrad)" rx="8" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Header strip -->
+  <rect x="0" y="0" width="436" height="30" fill="#061517" rx="8"/>
+  <line x1="0" y1="30" x2="436" y2="30" stroke="#1e293b" stroke-width="1"/>
+
+  <text x="14" y="19" class="mono" font-size="10.5" font-weight="700" fill="#10b981">02 / ENGINEERING-AGGREGATE</text>
+  <text x="422" y="19" class="mono" font-size="9.5" fill="#64748b" text-anchor="end">TOKEN REDUCTION: -75%</text>
+
+  <!-- Architecture Flow Simulation Box -->
+  <g transform="translate(14, 42)">
+    <rect width="408" height="118" fill="#030712" rx="5" stroke="#334155" stroke-width="0.8"/>
+
+    <!-- Workflow Diagram Inside Card -->
+    <!-- Node 1: AI Agent Session -->
+    <rect x="14" y="16" width="112" height="42" fill="#0f172a" rx="4" stroke="#38bdf8" stroke-width="0.8"/>
+    <text x="70" y="32" class="mono" font-size="8.5" fill="#38bdf8" font-weight="700" text-anchor="middle">AI CODING AGENT</text>
+    <text x="70" y="47" class="mono" font-size="7.5" fill="#94a3b8" text-anchor="middle">Long-Horizon Task</text>
+
+    <!-- Arrow 1 -->
+    <line x1="126" y1="37" x2="152" y2="37" stroke="#64748b" stroke-width="1.2" stroke-dasharray="2 2"/>
+    <polygon points="152,34 158,37 152,40" fill="#64748b"/>
+
+    <!-- Node 2: Zero-Token Engine -->
+    <rect x="160" y="14" width="118" height="46" fill="#062e24" rx="4" stroke="#10b981" stroke-width="1"/>
+    <text x="219" y="31" class="mono" font-size="8.5" fill="#34d399" font-weight="700" text-anchor="middle">ZERO-TOKEN FILTER</text>
+    <text x="219" y="44" class="mono" font-size="7.5" fill="#a7f3d0" text-anchor="middle">Targeted Retrieval</text>
+    <text x="219" y="54" class="mono" font-size="7" fill="#6ee7b7" text-anchor="middle">[ -75% Token Bloat ]</text>
+
+    <!-- Arrow 2 -->
+    <line x1="278" y1="37" x2="304" y2="37" stroke="#64748b" stroke-width="1.2" stroke-dasharray="2 2"/>
+    <polygon points="304,34 310,37 304,40" fill="#64748b"/>
+
+    <!-- Node 3: Architectural Immunity -->
+    <rect x="312" y="16" width="82" height="42" fill="#0f172a" rx="4" stroke="#f59e0b" stroke-width="0.8"/>
+    <text x="353" y="32" class="mono" font-size="8.5" fill="#f59e0b" font-weight="700" text-anchor="middle">IMMUNITY</text>
+    <text x="353" y="47" class="mono" font-size="7.5" fill="#94a3b8" text-anchor="middle">0 Amnesia</text>
+
+    <!-- Bottom metric bar -->
+    <rect x="14" y="74" width="380" height="32" fill="#071018" rx="3" stroke="#1e293b" stroke-width="0.6"/>
+    <text x="24" y="89" class="mono" font-size="8.5" fill="#10b981" font-weight="600">✔ ENTROPY ERADICATION:</text>
+    <text x="162" y="89" class="mono" font-size="8.5" fill="#e2e8f0">Enforces strict seam encapsulation</text>
+    <text x="24" y="100" class="mono" font-size="7.5" fill="#64748b">Prevents hallucinated layer leaks, regressions &amp; duplicate logic</text>
+  </g>
+
+  <!-- Card Title & Description -->
+  <text x="14" y="180" class="mono" font-size="13" font-weight="700" fill="#f8fafc">
+    Autonomous Memory for AI Coding Agents
+  </text>
+  <text x="14" y="196" class="mono" font-size="9.5" fill="#94a3b8">
+    Zero-token targeted context retrieval &amp; codebase architectural immunity.
+  </text>
+
+  <!-- Technology Badges -->
+  <g transform="translate(14, 210)">
+    <rect x="0" y="0" width="70" height="18" fill="#0f172a" rx="3" stroke="#334155" stroke-width="0.7"/>
+    <text x="35" y="12" class="mono" font-size="8" fill="#34d399" text-anchor="middle">AI Agents</text>
+
+    <rect x="76" y="0" width="84" height="18" fill="#0f172a" rx="3" stroke="#334155" stroke-width="0.7"/>
+    <text x="118" y="12" class="mono" font-size="8" fill="#34d399" text-anchor="middle">Token Reduction</text>
+
+    <rect x="166" y="0" width="80" height="18" fill="#0f172a" rx="3" stroke="#334155" stroke-width="0.7"/>
+    <text x="206" y="12" class="mono" font-size="8" fill="#34d399" text-anchor="middle">Context Guard</text>
+
+    <rect x="252" y="0" width="76" height="18" fill="#0f172a" rx="3" stroke="#334155" stroke-width="0.7"/>
+    <text x="290" y="12" class="mono" font-size="8" fill="#34d399" text-anchor="middle">Zero Amnesia</text>
+
+    <text x="408" y="13" class="mono" font-size="9.5" font-weight="700" fill="#10b981" text-anchor="end">VIEW ↗</text>
+  </g>
+</svg>
