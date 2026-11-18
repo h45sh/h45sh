@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="36" viewBox="0 0 216 36" role="img">
+<title>Engineering Aggregate</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8B98A4;white-space:pre}
+.p{fill:#E6EDF2}
+.m{fill:#52606B}
+.a{fill:#00F2FE}
+.w{font-weight:600}
+</style>
+<rect x="0.5" y="0.5" width="215" height="35" rx="18" fill="#02070A" stroke="#16232D"/>
+<circle cx="18" cy="18" r="4" fill="#00F2FE"/>
+<text x="30" y="22" font-size="12" class="p w">Engineering Aggregate</text>
+<text x="200" y="22" font-size="12" class="m" text-anchor="end">↗</text>
+</svg>

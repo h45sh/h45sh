@@ -1,5 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="34" viewBox="0 0 140 34" role="img">
-  <rect width="140" height="34" rx="17" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
-  <circle cx="16" cy="17" r="4" fill="#38bdf8"/>
-  <text x="26" y="21" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#f8fafc">h45sh.com ↗</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="36" viewBox="0 0 120 36" role="img">
+<title>h45sh.com</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8B98A4;white-space:pre}
+.p{fill:#E6EDF2}
+.m{fill:#52606B}
+.a{fill:#00F2FE}
+.w{font-weight:600}
+</style>
+<rect x="0.5" y="0.5" width="119" height="35" rx="18" fill="#02070A" stroke="#16232D"/>
+<circle cx="18" cy="18" r="4" fill="#00F2FE"/>
+<text x="30" y="22" font-size="12" class="p w">h45sh.com</text>
+<text x="104" y="22" font-size="12" class="m" text-anchor="end">↗</text>
 </svg>
